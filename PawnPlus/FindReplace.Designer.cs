@@ -66,6 +66,7 @@
             this.TabControl.SelectedIndex = 0;
             this.TabControl.Size = new System.Drawing.Size(203, 250);
             this.TabControl.TabIndex = 0;
+            this.TabControl.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TabControl_KeyDown);
             this.TabControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TabControl_MouseDown);
             this.TabControl.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TabControl_MouseMove);
             this.TabControl.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TabControl_MouseUp);

@@ -166,5 +166,13 @@ namespace PawnPlus
                 SendKeys.Send("{ENTER}");
             }
         }
+
+        private void TabControl_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                Program.findreplace.Hide();
+            }
+        }
     }
 }
